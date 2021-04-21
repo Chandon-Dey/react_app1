@@ -1,0 +1,35 @@
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container div{
+    height: auto;
+    width: 415px;
+    background: pink;
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    width: 80%;
+    height: auto;
+}
+input{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+::placeholder{
+    text-align: center;
+}
